@@ -11,3 +11,14 @@
   height: auto;
   display: block;
 }
+
+footer {
+  background-image: url(../img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#third-section {
+  background-color: #303030;
+}
