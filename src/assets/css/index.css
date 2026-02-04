@@ -1,3 +1,13 @@
 #main-section {
   background-color: #1c1c1c;
 }
+
+#buys-section {
+  background-color: #0082f9;
+}
+
+.buys-img {
+  width: 40px;
+  height: auto;
+  display: block;
+}
