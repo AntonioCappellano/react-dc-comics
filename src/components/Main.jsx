@@ -194,6 +194,11 @@ export default function Main() {
               </div>
             ))}
           </div>
+          <div className="d-flex justify-content-center mt-4">
+            <button type="button" className="btn btn-primary rounded-0">
+              <b>LOAD MORE</b>
+            </button>
+          </div>
         </div>
       </section>
     </main>
