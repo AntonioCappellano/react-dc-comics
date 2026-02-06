@@ -1,3 +1,5 @@
+import ComicsCard from "./comics/comicsCard";
+
 export default function Main() {
   const comics = [
     {
@@ -182,16 +184,11 @@ export default function Main() {
         <div className="container py-5 text-white">
           <div className="row">
             {comics.map((comic) => (
-              <div key={comic.id} className="col-2">
-                <div className="comic-card">
-                  <img
-                    src={comic.thumb}
-                    className="img-fluid"
-                    alt={comic.title}
-                  ></img>
-                  <h5>{comic.title}</h5>
-                </div>
-              </div>
+              <ComicsCard
+                key={comic.id}
+                title={comic.title}
+                thumb={comic.thumb}
+              />
             ))}
           </div>
           <div className="d-flex justify-content-center mt-4">
